@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-21T07:53:09Z" name="Suite" finished-at="2021-08-21T07:54:30Z" duration-ms="81170">
+    <groups>
+    </groups>
+    <test started-at="2021-08-21T07:53:09Z" name="Test" finished-at="2021-08-21T07:54:30Z" duration-ms="81170">
+      <class name="Academy.ETEProject.validateTitle">
+        <test-method signature="basePageNavigation()[pri:0, instance:Academy.ETEProject.validateTitle@44d52de2]" started-at="2021-08-21T13:23:50Z" name="basePageNavigation" finished-at="2021-08-21T13:23:58Z" duration-ms="8221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- Academy.ETEProject.validateTitle -->
+      <class name="Academy.ETEProject.ValidateWidgets">
+        <test-method signature="ValidatewidgetYoumaylike()[pri:0, instance:Academy.ETEProject.ValidateWidgets@4b213651]" started-at="2021-08-21T13:24:04Z" name="ValidatewidgetYoumaylike" finished-at="2021-08-21T13:24:04Z" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatewidgetYoumaylike -->
+        <test-method signature="ValidteViewMoreOfWidget()[pri:0, instance:Academy.ETEProject.ValidateWidgets@4b213651]" started-at="2021-08-21T13:24:04Z" name="ValidteViewMoreOfWidget" finished-at="2021-08-21T13:24:13Z" duration-ms="9154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidteViewMoreOfWidget -->
+      </class> <!-- Academy.ETEProject.ValidateWidgets -->
+      <class name="Academy.ETEProject.validateNavbar">
+        <test-method signature="basePageNavigation()[pri:0, instance:Academy.ETEProject.validateNavbar@41ab013]" started-at="2021-08-21T13:23:58Z" name="basePageNavigation" finished-at="2021-08-21T13:23:58Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="getnamemenucount()[pri:0, instance:Academy.ETEProject.validateNavbar@41ab013]" started-at="2021-08-21T13:23:58Z" name="getnamemenucount" finished-at="2021-08-21T13:23:58Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getnamemenucount -->
+        <test-method signature="menuoptionsclick()[pri:0, instance:Academy.ETEProject.validateNavbar@41ab013]" started-at="2021-08-21T13:23:58Z" name="menuoptionsclick" finished-at="2021-08-21T13:24:04Z" duration-ms="5878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuoptionsclick -->
+      </class> <!-- Academy.ETEProject.validateNavbar -->
+      <class name="Academy.ETEProject.HomePage">
+        <test-method is-config="true" signature="init()[pri:0, instance:Academy.ETEProject.HomePage@4241e0f4]" started-at="2021-08-21T13:23:09Z" name="init" finished-at="2021-08-21T13:23:09Z" duration-ms="780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init()[pri:0, instance:Academy.ETEProject.ValidateWidgets@4b213651]" started-at="2021-08-21T13:23:09Z" name="init" finished-at="2021-08-21T13:23:19Z" duration-ms="9920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init()[pri:0, instance:Academy.ETEProject.validateNavbar@41ab013]" started-at="2021-08-21T13:23:19Z" name="init" finished-at="2021-08-21T13:23:27Z" duration-ms="7389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init()[pri:0, instance:Academy.ETEProject.validateTitle@44d52de2]" started-at="2021-08-21T13:23:27Z" name="init" finished-at="2021-08-21T13:23:33Z" duration-ms="6701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="basePageNavigation()[pri:0, instance:Academy.ETEProject.HomePage@4241e0f4]" started-at="2021-08-21T13:23:33Z" name="basePageNavigation" finished-at="2021-08-21T13:23:43Z" duration-ms="9540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigationNoValues()[pri:0, instance:Academy.ETEProject.HomePage@4241e0f4]" started-at="2021-08-21T13:23:43Z" name="basePageNavigationNoValues" finished-at="2021-08-21T13:23:50Z" duration-ms="6754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigationNoValues -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.ETEProject.HomePage@4241e0f4]" started-at="2021-08-21T13:24:13Z" name="teardown" finished-at="2021-08-21T13:24:17Z" duration-ms="4164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.ETEProject.ValidateWidgets@4b213651]" started-at="2021-08-21T13:24:17Z" name="teardown" finished-at="2021-08-21T13:24:22Z" duration-ms="4167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.ETEProject.validateNavbar@41ab013]" started-at="2021-08-21T13:24:22Z" name="teardown" finished-at="2021-08-21T13:24:26Z" duration-ms="4167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.ETEProject.validateTitle@44d52de2]" started-at="2021-08-21T13:24:26Z" name="teardown" finished-at="2021-08-21T13:24:30Z" duration-ms="4155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.ETEProject.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

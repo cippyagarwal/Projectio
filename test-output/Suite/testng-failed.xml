@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="Academy.ETEProject.HomePage">
+        <methods>
+          <include name="teardown"/>
+          <include name="basePageNavigation"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- Academy.ETEProject.HomePage -->
+      <class name="Academy.ETEProject.validateTitle">
+        <methods>
+          <include name="init"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- Academy.ETEProject.validateTitle -->
+      <class name="Academy.ETEProject.validateNavbar">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="init"/>
+          <include name="menuoptionsclick"/>
+        </methods>
+      </class> <!-- Academy.ETEProject.validateNavbar -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

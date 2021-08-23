@@ -26,9 +26,10 @@ public class LoginPageLanding extends base {
 		public void validateredirection() throws InterruptedException {
 		// redirecting to login page 
 		LandingPage l = new LandingPage(driver);
-		Actions action = new Actions(driver);
-        action.moveToElement(l.getQuicklink()).perform();
-        l.getlogin().click();
+		//Actions action = new Actions(driver);
+        //action.moveToElement(l.getQuicklink()).perform();
+        //l.getlogin().click();
+		l.getQuicklink().click();
 		Thread.sleep(3000);	
 		LoginPage lp = new LoginPage(driver);
 		lp.getEmail().sendKeys("cippy.agarwal@gmail.com");

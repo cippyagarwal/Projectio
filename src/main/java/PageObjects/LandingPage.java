@@ -15,12 +15,12 @@ public class LandingPage {
 	By NavBar = By.cssSelector(".nav.navbar-nav.navbar-right>li>a");
 	*/
 	By Images = By.xpath("/html/body/div[1]/div[1]/div/a[1]/img");
-	By NavBar =  By.cssSelector("body > div.sh-navbar > div.sh-navbar--bottom-wrapper > nav");
+	By NavBar =  By.xpath("/html/body/div[1]/div[3]/nav");
 	By Inputbox =  By.id("sh-global-search");
 	By Button =  By.xpath("/html/body/div[1]/div[1]/div/a[2]");
-	By NamesMenu  =  By.xpath("/html/body/div[1]/div[3]/nav/div[1]/a");
-	By NameMenu_Recommendation = By.xpath("/html/body/div[1]/div[3]/nav/div[1]/div/div/div[1]/div[1]/a[2]");
-    By NavNameMenuCount =  By.xpath("//a[@class='sh-navbar--nav-dropdownitem hover:text-brand-blue']");
+	By NamesMenu  =  By.xpath("/html/body/div[1]/div[3]/nav/div[1]/div[1]/a/span");
+	By NameMenu_Recommendation = By.xpath("/html/body/div[1]/div[3]/nav/div[1]/div[2]/div/a[1]");
+    By NavNameMenuCount =  By.xpath("//a[@class='sh-navbar--nav-link hover:text-brand-blue']");
     By YouMayAlsoLike_Widget =  By.xpath("//*[@id=\"recoms-widget\"]/div/div/div[1]/h3");
 	By View_widget= By.xpath("//*[@id=\"views-widget\"]/div/div/div[1]/h3");
 	By BasedOnProject_widget =  By.xpath("/html/body/div[3]/div/div/div[3]/h3");
@@ -31,10 +31,10 @@ public class LandingPage {
     By Betamakervalidation = By.xpath("/html/body/div[2]/div/div[5]/div[2]/div[1]/div[1]/span");
     By validateViewMoreButtonOFYouMayLike = By.xpath("//*[@id=\"content\"]/div[1]/div/div/div/div/h1");
     By YoumaylikeOptionClick = By.xpath("/html/body/div[3]/div/div/div[1]/div/div/div[2]");
-    By SellingPrice  =  By.xpath("/html/body/div[2]/div/div[5]/div[2]/div[1]/div[2]");
-    By BuynowCta = By.xpath("/html/body/div[2]/div/div[5]/div[2]/div[1]/div[3]/a");
-    By Quicklink = By.xpath("/html/body/div[1]/div[3]/nav/div[7]/div[1]/button/div");
-    By loginlink = By.xpath("/html/body/div[1]/div[3]/nav/div[7]/div[1]/div/a[1]");
+    By SellingPrice  =  By.xpath("/html/body/div[2]/div/div[6]/div[2]/div[1]/div[2]");
+    By BuynowCta = By.xpath("/html/body/div[2]/div/div[6]/div[2]/div[1]/div[3]/a");
+    By Quicklink = By.xpath("//*[@id='before-login-div']");
+    By loginlink = By.xpath("/html/body/div[1]/div[1]/div/div[3]/div[1]/div/a[1]");
     
     public LandingPage(WebDriver driver) {
 		// TODO Auto-generated constructor stub

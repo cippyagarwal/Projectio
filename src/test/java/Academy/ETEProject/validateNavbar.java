@@ -26,9 +26,10 @@ public class validateNavbar extends base{
 	}
 	
 	@Test()
-	public void basePageNavigation() throws IOException
+	public void basePageNavigation() throws IOException, InterruptedException
 	
-	{
+	{     driver.navigate().to("https://www.squadhelp.com/premium-domains-for-sale/all/q/test");
+	      Thread.sleep(3000);
 		 // Validationg Whether menu is present or not
 		 LandingPage l = new LandingPage(driver);
          Assert.assertTrue(l.getNavBar().isDisplayed());
@@ -53,7 +54,7 @@ public class validateNavbar extends base{
 	     LandingPage l = new LandingPage(driver);
 	     List<WebElement> options=  l.GetCountNameMenu();
 	    // System.out.println(options.size());
-         Assert.assertEquals(15, options.size());		
+         Assert.assertEquals(31, options.size());		
 	}
 	       
 	@AfterTest

@@ -3,13 +3,13 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="Academy.ETEProject.LoginPageLanding">
+      <class name="Academy.ETEProject.validateNavbar">
         <methods>
-          <include name="validateredirection"/>
-          <include name="init"/>
           <include name="teardown"/>
+          <include name="init"/>
+          <include name="getnamemenucount"/>
         </methods>
-      </class> <!-- Academy.ETEProject.LoginPageLanding -->
+      </class> <!-- Academy.ETEProject.validateNavbar -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

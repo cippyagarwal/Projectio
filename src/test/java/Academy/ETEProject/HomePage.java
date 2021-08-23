@@ -2,6 +2,7 @@ package Academy.ETEProject;
 
 import java.io.IOException;
 
+import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -26,15 +27,16 @@ public class HomePage extends base{
 	{   //clicking on Button with values
 		driver.get(prop.getProperty("url"));
 		LandingPage l = new LandingPage(driver); 
-		l.getInputbox().sendKeys("Test");
-		l.GetContestButton().click();
+		l.getInputbox().sendKeys("Test", Keys.ENTER);
+		//l.GetContestButton().click();
 	}
 	@Test
 	public void basePageNavigationNoValues()
 	{   //clicking on Button without values
 		driver.get(prop.getProperty("url"));
-		LandingPage l = new LandingPage(driver); 
-		l.GetContestButton().click();
+		LandingPage l = new LandingPage(driver);
+		l.getInputbox().sendKeys("", Keys.ENTER);
+		//l.GetContestButton().click();
 	}
 	@AfterTest
 	public void teardown() {
